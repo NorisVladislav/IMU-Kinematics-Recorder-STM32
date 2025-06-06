@@ -17,7 +17,7 @@ A rolling history of **20 samples** is preserved in an external **AT24C256 I²C 
 ## 📐 Physical Principles
 
 ![Custom PCB Photo](PHOTOS/1.png) 
-*Photo illustrating the physics principles behind the project*
+*Photo illustrating the physics principles behind the project.*
 
 ---
 
