@@ -43,8 +43,10 @@ A rolling history of **20 samples** is preserved in an external **AT24C256 I²C 
 | Power | 5 V via USB or 3.3 V regulator | ~20 mA typical |
 
 ![Custom PCB Photo](PHOTOS/4.png) 
+
 MPU6050 Accelerometer and Gyroscope
 ![Custom PCB Photo](PHOTOS/5.png) 
+
 Two-wire Serial EEPROM AT24C256
 
 ### I²C Pin‑out (default)
