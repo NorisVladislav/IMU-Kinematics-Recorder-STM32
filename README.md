@@ -7,10 +7,27 @@ A rolling history of **20 samples** is preserved in an external **AT24C256 I²C 
 
 ---
 
-## 📸 Project Concept
+## 📸 Project Concept (Hardware)
 
-![Physical Concept Diagram](images/concept-diagram.jpg)  
-*Diagram illustrating the physical design, sensor placement, and data flow.*
+![Custom PCB Photo](PHOTOS/8.png)  
+*Photo of the custom PCB with STM32, MPU6050, and EEPROM mounted.*
+
+---
+
+## 📐 Physical Principles
+
+![Custom PCB Photo](PHOTOS/1.png) 
+*Photo illustrating the physics principles behind the project*
+
+---
+
+## 🔌 Wiring Diagram
+
+![Custom PCB Photo](PHOTOS/2.png) 
+![Custom PCB Photo](PHOTOS/3.png) 
+![Custom PCB Photo](PHOTOS/6.png) 
+
+*Image showing how components are physically connected: STM32 ↔ MPU6050 ↔ EEPROM, with power lines and I²C/UART.*
 
 ---
 
@@ -23,6 +40,11 @@ A rolling history of **20 samples** is preserved in an external **AT24C256 I²C 
 | External EEPROM | **AT24C256** | 32 KB, I²C @ 400 kHz |
 | USB‑UART bridge | CH340 / FT232 / ST‑Link VCP | Any 3.3 V‑logic adapter |
 | Power | 5 V via USB or 3.3 V regulator | ~20 mA typical |
+
+![Custom PCB Photo](PHOTOS/4.png) 
+MPU6050 Accelerometer and Gyroscope
+![Custom PCB Photo](PHOTOS/5.png) 
+Two-wire Serial EEPROM AT24C256
 
 ### I²C Pin‑out (default)
 
@@ -78,31 +100,7 @@ Core/
 
 ## 🖼️ Example Output (UART)
 
-```text
-ACC, 120, -34, 985
-VEL, 5, 2, 0
-DIS, 2, 0, 0
-```
-
-```text
-EEP, 0x0000, 78 90 A3 ...
-```
-
----
-
-## 📷 Suggested Visuals
-
-| Image Placeholder | Description |
-|-------------------|-------------|
-| `images/concept-diagram.jpg` | Physical system layout (already included above) |
-| `images/pcb-top.jpg` | Top view of the PCB with component labels |
-| `images/uart-output.png` | Screenshot of UART output in HyperTerminal |
-| `images/imu-mounted.jpg` | IMU module mounted on custom PCB |
-| `images/dataflow-chart.png` | Flowchart of the logic from sensor to UART |
-
-*Put these images inside a folder named `images/` at the root of your repo.*
-
----
+![Custom PCB Photo](PHOTOS/7.png) 
 
 ## Building & Flashing
 
@@ -142,4 +140,4 @@ MIT – see `LICENSE` for details.
 
 ---
 
-© 2025 Your Name. Feel free to reach out for questions or improvements!
+© 2025 Noris Vladislav. Feel free to reach out for questions or improvements!
