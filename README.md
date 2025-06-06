@@ -45,6 +45,7 @@ A rolling history of **20 samples** is preserved in an external **AT24C256 I²C 
 ![Custom PCB Photo](PHOTOS/4.png) 
 
 MPU6050 Accelerometer and Gyroscope
+
 ![Custom PCB Photo](PHOTOS/5.png) 
 
 Two-wire Serial EEPROM AT24C256
